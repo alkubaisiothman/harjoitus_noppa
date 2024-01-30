@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+#dice {
+    cursor: pointer;
+}
+#dice:hover img {
+    transform: scale(1.2);
+    transition: transform 3s ease;
+}
